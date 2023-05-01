@@ -1,0 +1,147 @@
+.header {
+    position: relative;
+    right: 0;
+    left: 0;
+    height: 140px;
+    line-height: 120px;
+    background-color: rgb(94, 154, 218);
+    z-index: 1;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: ghostwhite;
+}
+
+p {
+    font-weight: 400;
+    margin: 15px 0px 20px 0px;
+    padding-right: 5px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(36, 41, 46);
+}
+
+h1 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    border-bottom: 3px solid rgb(9, 102, 196);
+}
+
+h2 {
+    text-align:left;
+    font-size: 25px;
+    font-weight: 550;
+    margin: 20px 0px 20px 0px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 460;
+    margin: 5px 0px 5px 0px;
+    padding-bottom: 12px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 450;
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 12px;
+}
+
+h5 {
+    vertical-align:middle;
+    font-size: 16px;
+    font-weight: 450;
+    margin: 5px 2px 5px 2px;
+}
+
+table{
+    
+    border-collapse: separate; 
+    border-spacing: 120px 0px;
+}
+
+table tr{
+    display: flex;
+    justify-content: space-around;
+    table-layout: fixed;
+}
+
+table td {
+    flex: 1;/*让每个单元格宽度一样*/
+    height:10px;
+    padding-left:10px;
+    display: flex;/*flex布局*/
+    align-items: center;/*让单元格文字垂直居中*/
+    color: #d65312;
+}
+
+.before-test {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 40px 0px 0px;
+}
+
+.caption-before {
+    text-align: center;
+    display: inline;
+    max-width: 350px;
+    min-width: 275px;
+    flex: 1 1 275px;
+    margin: 5px 10px;
+    position: relative;
+}
+
+.test-clips {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 40px 0px 0px;
+}
+
+.caption-ab {
+    vertical-align:middle;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 350px;
+    min-width: 275px;
+    flex: 2 1 275px;
+    margin: 5px 5px;
+    position: relative;
+}
+
+.audio-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 5px 5px 5px;
+}
+
+.audio-inline {
+    display: inline-block;
+    text-align:center;
+}
+
+.audio-line {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 10px 5px 5px 5px;
+}
+
